@@ -7,8 +7,65 @@ html,
 body {
   margin: 0;
   padding: 0;
+  height: 100%;
 }
 
 /* Add styles here! */
 
-/*brand new*/
+header {
+  padding: 48px 128px;
+}
+
+.max-width-wrapper {
+  width: 800px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+header {
+  font-size: 1.25rem;
+  border-bottom: solid 5px hsl(0deg, 0%, 40%);
+}
+
+.title {
+  font-size: 1.5rem;
+  padding-bottom: 36px;
+}
+
+.intro-chunk {
+  display: inline-block;
+  width: 40%;
+}
+
+strong {
+  color: hsl(160deg, 100%, 30%);
+}
+
+main {
+  background-color: hsl(0deg, 0%, 60%);
+  padding: 48px 96px;
+}
+
+.card {
+  background-color: white;
+  margin-bottom: 16px;
+  border-bottom: solid 5px hsl(0deg, 0%, 40%);
+  padding: 0px 32px;
+  width: 75%;
+}
+
+.indented-heading {
+  display: inline-block;
+  width: fit-content;
+  padding: 16px 32px;
+  font-size: 1.25rem;
+  margin-left: -42px;
+  background-color: hsl(45deg, 100%, 50%);
+  border-bottom: solid 5px hsl(45deg, 100%, 40%);
+}
+
+p {
+  line-height: 1.4;
+}
+
+/* media queries */
